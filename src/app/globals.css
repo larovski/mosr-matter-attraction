@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --dark: #151226;
+  --purple: #7b71ff;
+  --pink: #ff5ec4;
+}
+
+body {
+  color: var(--purple);
+  background-color: var(--dark);
+}
